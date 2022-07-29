@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700';
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+
+.gz-item{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.gz-item[onclick]{
+    cursor: pointer;
+}
+
+.gz-profile{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    /* margin-right: -25px */
+}
+
+.gz-profile-image{
+    width: 130px;
+    height: 130px;
+    border: 5px solid white;
+    border-radius: 50%;
+    justify-self: center;
+}
+
+i{
+    color:#607d8b;
+}
+
+.gz-item i{
+    font-size: 17px;
+    color: #0b6cdd;
+}
+
+.gz-icon-big{
+    font-size: 35px;
+}
+/* .gz-circle-letters{
+    display: initial;
+    background: #f44336;
+    font-weight: bold;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border-radius: 50%;
+    margin-right: 7px;
+} */
